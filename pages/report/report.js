@@ -1,4 +1,4 @@
-import request from '../../utils/request.js'
+﻿import request from '../../utils/request.js'
 import common from '../../utils/common.js'
 const app = getApp()
 Page({
@@ -161,7 +161,7 @@ Page({
     }
     if (e.detail.value.is_return_school == 2) {
       that.setData({
-        return_district_value: ''
+        return_district_value: 0
       })
     }
     let data = {
